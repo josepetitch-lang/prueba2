@@ -1,0 +1,30 @@
+INICIO
+  Para número del 1 al 10 hacer
+      Mostrar numero
+FIN
+
+INICIO
+  Para número del 1 al 15 hacer
+      Mostrar (número * 2)
+FIN
+
+INICIO
+  Resultado = 0
+  Para número del 1 al 20 hacer
+     Resultado = numero + Resultado
+  Fin Para
+
+  Mostrar Resultado
+FIN
+
+INICIO
+   número = 0
+   resultado = 0
+
+   Repetir 
+     número = número + 1
+     Resultado = número + resultado
+    Hasta que número = 20
+
+    Mostrar Resultado
+FIN 

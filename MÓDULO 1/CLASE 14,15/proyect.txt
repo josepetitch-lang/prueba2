@@ -1,0 +1,15 @@
+#Elegir Problema
+#Analizar Requerimientos
+#Diseñar Modulado de Datos 
+#Definir flujo de la app
+#Implementación
+#Refinamiento
+
+- ⁠Tracker de estudio (pomodoros + progreso por tema)
+
+# Problema: estudiante flojo q tiene problemas para un tema en una asignatura
+# Requerimiento: Temario, Duración, Técnica
+# Modulo: Temporizador, Materia, Progreso, 
+# Flujo: Main.py, Datos.Json, tecnica.py
+# implementación: ahi veo :p
+# refinamiento: sabra dios xddddddd

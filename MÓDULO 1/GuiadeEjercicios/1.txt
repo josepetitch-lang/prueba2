@@ -1,0 +1,41 @@
+Enunciado: Pedir nombre de una persona y mostrar un saludo personalizado
+ 1 (Registrar estudiante), 2 (Salir)
+El menu debe repetirse hasta que el usuario seleccione la opción Salir
+
+# El sistema debe permitir ingresar el nombre del estudiante
+# Luego debe solicitar la nota del estudiante
+# El sistema debe indicar si el estudiante aprueba o reprueba
+# El proceso debe repetirse hasta que el usuario decida Salir
+
+INICIO
+  Repetir ciclo
+
+  Opciones: 
+   Mostrar opción 1. Registro del estudiante:
+   Mostrar opción 2. Salir
+
+   Si opción es 1:
+     Pedir nombre y mostrar saludo
+     Mostrar: "¿Cual es su nombre y apellido?"
+        Nombre: 
+        Apellido: 
+     Mostrar saludo: ("Hola" + nombre + apellido + "Bienvenido")
+
+     Preguntar nota:
+         SI nota >= 10:
+             Mostrar ("Felicidades" + nombre + "usted aprobó")
+         SINO:
+             Mostrar ("Usted reprobó")
+        Fin si
+    Fin si
+   
+   Si opción es 2:
+     Mostrar ("Hasta pronto")
+   SINO:
+     Mostrar "opción no válida, vuelva al menú"
+   Fin si
+    
+
+   Hasta que la opción = 2
+
+FIN

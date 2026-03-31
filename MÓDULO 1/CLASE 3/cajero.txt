@@ -1,0 +1,57 @@
+NICIO
+  Definir saldo inicial = 100
+
+  Repetir
+        Mostrar "1. Consultar saldo"
+        Mostrar "2. Retirar dinero"
+        Mostrar "3. Salir"
+        Pedir opción
+    Si opción es 1:
+        Mostrar saldo
+    Fin si
+
+    Si opción es 2:
+      Peir monto a Retirar
+      Si monto <= saldo :
+         Restar monto al saldo
+         Mostrar "Retiro existoso"
+      Si no
+         Mostrar "Saldo Insuficiente"
+      Fin si
+    Fin si 
+
+    Hasta que la opción sea 3
+    
+    Mostrar "Gracias por usar el cajero"
+FIN
+
+Repetición.txt
+
+INICIO
+  Si el monto es mayor o igual al 100
+     restar descuento al monto
+  SINO
+     el monto no tiene descuento
+  Fin si
+
+  Mostrar monto final
+FIN
+
+INICIO
+     Ingresar tarjeta en el cajero
+     Pedir Cédula al Cliente
+     Pedir Clave al Cliente
+
+     Buscar con la cédula si existe el usuario en la base de datos
+
+     Si el usuario existe
+           Si clave es igual a guardada en db 
+              Mostrar "se inició sesión"
+           Sino 
+              Mostrar "Clave inválida"
+            Fin si
+    Sino
+           Mostrar "Usuario no registrado"
+    Fin si
+FIN
+     

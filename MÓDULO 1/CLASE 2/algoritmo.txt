@@ -1,0 +1,27 @@
+INICIO
+  Definir saldo inicial = 100
+
+  Repetir
+    Mostrar "1. Consultar saldo"
+    Mostrar "2. Retirar dinero"
+    Mostrar "3. Salir"
+    Pedir opción
+
+    Si la opción es 1 entonces
+      Mostrar saldo
+    Fin si
+
+    Si la opción es 2 entonces
+      Pedir monto a retirar
+      Si monto <= saldo entonces
+        Restar monto al saldo
+        Mostrar "Retiro exitoso"
+      Si no
+        Mostrar "Saldo insuficiente"
+      Fin si
+    Fin si
+
+  Hasta que la opción sea 3
+
+  Mostrar "Gracias por usar el cajero"
+FIN

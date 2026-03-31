@@ -1,0 +1,14 @@
+[
+    {
+    "nombre": "José",
+    "edad": "18",
+    "cedula": "32569485",
+    "status": "Estudiante",
+    "archivo": true
+    },
+    {
+    "nombre": "Luis",
+    "edad": "30",
+    "archivo": true
+    }
+]

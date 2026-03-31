@@ -1,0 +1,28 @@
+INICIO
+  Pedir el monto de la compra
+
+  Si el monto es mayor o igual a 100 entonces
+    Calcular descuento del 10%
+    Restar descuento al monto
+  Si no
+    El monto no tiene descuento
+  Fin si
+
+  Mostrar monto final
+FIN
+
+INICIO
+  Ingresar tarjeta en el cajero
+  Pedir Cedula al cliente
+  Pedir Clave al cliente
+
+  Buscar con la cedula si existe el usuario en la base de datos
+
+  Si el usuario existe
+    Si clave es igual a clave guardada en db
+      Mostrar "Se inicio sesion"
+    Si no
+      Mostra "Clave invalida"
+  Si no
+    Mostrar "Usuario no registrado"
+FIN
