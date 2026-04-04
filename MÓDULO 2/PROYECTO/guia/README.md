@@ -28,7 +28,7 @@ ESTAMOS "ENCANTADOS" (me senti mejor cuando me robaron en Caracas) DE RECIBIR NU
    - Devolución máxima de 40 días
 
 # 4: UBICACIÓN ACTUAL:
-   - Universida UNEFA, Núcleo Falcón, Extensión PUNTO FIJO, Venezuela (*inserte dirección.mp4*)
+   - Universidad UNEFA, Núcleo Falcón, Extensión PUNTO FIJO, Venezuela (*inserte dirección.mp4*)
 
 
 # LOS ESPERAMOS (mentira)
