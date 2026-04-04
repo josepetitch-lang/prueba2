@@ -1,0 +1,32 @@
+CORRECCIONES_PARA_NO_MORIR_EN_EL_INTENTO.txt
+
+
+1. EL BENDITO JSON (Sinfonía en UTF-8):
+   Si en tu JSON sale "s", el código está gritando: "—¡No me quiero ir, señor Stark!". 
+   Arréglalo así para que sea legible por humanos y no por alienígenas:
+   
+   1.1. IDENTACIÓN (indent=4): 
+        Usa espacios de indentación. Un JSON sin espacios es como un cuarto sin luz: no encuentras nada y te pegas en el dedo chiquito del pie.
+        Inserte: *Es bellísimo.jpg*
+
+   1.2. ENSURE_ASCII=FALSE (La vieja confiable): 
+        Activa el `ensure_ascii=False`. Esto te salvará las papas de que "Ramón" parezca código de lanzamiento nuclear. 
+        Inserte: *Un pequeño precio a pagar por la salvación.*
+
+
+2. LAS TILDES EN LAS VARIABLES:
+   Si tu clase tiene "categoría", tu JSON debe tener "categoría". Si se te olvida la tilde en uno de los dos, el programa te va a decir: "—Ahorita no, joven". 
+  # GUERRA CIVIL: TILDES EN EL CÓDIGO VS JSON:
+   Si definiste `self.categoría` con tilde en Python, el campo en el JSON 
+   DEBE tener tilde. Si uno tiene y el otro no, te va a tirar un 
+   KeyError y vas a querer aventar la laptop (ya lo hice xd)
+  
+3. ENCODING='UTF-8' EN EL OPEN:
+   Si no pones `encoding='utf-8'` al abrir el archivo, Python va a leer lo que quiera y te va a dejar el sistema hecho un caos.
+   ¡Oblígame, prro! (si te obligo)
+
+4. VALIDACIÓN DE DISPONIBILIDAD:
+
+En alguna clase, añade un método "prestar()". 
+No solo cambies el booleano a False; primero verifica: 
+if not self.disponibilidad: print("mamalo ya eta prestao, f"). 

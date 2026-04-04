@@ -1,1 +1,31 @@
-{"books" : []}
+[{
+    "autor": "Gabriel García Márquez",
+    "título": "Cien años de soledad",
+    "categoría": "Realismo Mágico",
+    "disponibilidad": true
+  },
+  {
+    "autor": "Robert C. Martin",
+    "título": "Clean Code",
+    "categoría": "Programación",
+    "disponibilidad": true
+  },
+  {
+    "autor": "J.K. Rowling",
+    "título": "Harry Potter y la piedra filosofal",
+    "categoría": "Fantasía",
+    "disponibilidad": true
+  },
+  {
+    "autor": "Miguel de Cervantes",
+    "título": "Don Quijote de la Mancha",
+    "categoría": "Clásico",
+    "disponibilidad": true
+  },
+  {
+    "autor": "Jeff Ryan",
+    "título": "Super Mario: How Nintendo Conquered America",
+    "categoría": "Historia de los Videojuegos",
+    "disponibilidad": true
+  }
+]

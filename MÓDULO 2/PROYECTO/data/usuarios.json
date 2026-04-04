@@ -1,1 +1,20 @@
-{"usuarios" : []}
+[
+    {
+        "nombre": "Luis",
+        "cedula": "30303030303",
+        "edad": 20202020,
+        "telefono": "20202020",
+        "gmail": "luis@gmail.com",
+        "tipo": "Estudiante",
+        "libros_prestados": []
+    },
+    {
+        "nombre": "Gabriel",
+        "cedula": "3090188",
+        "edad": 50,
+        "telefono": "042450505050",
+        "gmail": "no_existe@gmail.com",
+        "tipo": "Profesor",
+        "libros_prestados": []
+    }
+]

@@ -1,7 +1,7 @@
 import json
 
-BOOKS_FILE = "../data/libros.json"
-USERS_FILE = "../data/usuarios.json"
+BOOKS_FILE = "MÓDULO 2/PROYECTO/data/libros.json"
+USERS_FILE = "MÓDULO 2/PROYECTO/data/usuarios.json"
 
 class JsonManager:
     def __init__(self, entity):

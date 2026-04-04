@@ -29,5 +29,5 @@ class Book:
       return self.disponibilidad
 
    def mostrar_info(self):
-        estado = "Disponible" if self.disponibilidad else "Prestado"
+        estado = "Disponible" 
         return f"[{self.codigo}] {self.titulo} - {self.autor} ({estado})"
